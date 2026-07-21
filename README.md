@@ -49,7 +49,7 @@ PathPal’s interface is designed to be:
 
 ## Impact
 
-- **1,000+ users** across **7+ countries**  
+- **1,450+ users** across **7+ countries**  
 - Used by immigrant families to reunite with aging parents  
 - Helps seniors who require wheelchair assistance, language support, or guidance through airports  
 - 2nd place winner of the **Congressional App Challenge (WA-01)**  
