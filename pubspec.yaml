@@ -16,7 +16,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
 # In Windows, build-name is used as the major, minor, and patch parts
 # of the product and file versions while build-number is used as the build suffix.
-version: 1.0.1+20
+version: 1.0.2+21
 
 environment:
   sdk: ^3.5.0
@@ -45,6 +45,9 @@ dependencies:
   country_picker: ^2.0.26
   intl: ^0.19.0
   flutter_map: ^7.0.2
+  flutter_map_cache: ^2.1.0
+  http_cache_file_store: ^2.0.0
+  dio_cache_interceptor: ^4.0.6
   path_provider: ^2.1.4
   sqflite: ^2.3.3+1
   path: ^1.9.0
@@ -77,6 +80,7 @@ flutter_native_splash:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_lints: ^4.0.0
 
   flutter_launcher_icons: ^0.14.0
 
@@ -86,13 +90,6 @@ flutter_icons:
   image_path: "assets/icon/pathpal_logo.png"
   adaptive_icon_foreground: "assets/icon/pathpal_foreground.png"
   adaptive_icon_background: "#ffffff"
-
-  # The "flutter_lints" package below contains a set of recommended lints to
-  # encourage good coding practices. The lint set provided by the package is
-  # activated in the `analysis_options.yaml` file located at the root of your
-  # package. See that file for information about deactivating specific lint
-  # rules and activating additional ones.
-  flutter_lints: ^4.0.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
